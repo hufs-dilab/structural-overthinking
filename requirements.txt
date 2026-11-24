@@ -1,0 +1,14 @@
+# Core
+smolagents>=1.20
+openai>=1.40
+fastmcp>=2.10
+python-dotenv>=1.0
+fire>=0.6
+tqdm>=4.66
+pandas>=2.0
+
+# Data download (ToolRet tool pool)
+datasets>=2.19
+
+# Optional: only needed to regenerate NoWait token IDs (python -m src.common.nowait_tokens)
+transformers>=4.44
